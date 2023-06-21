@@ -1,17 +1,20 @@
  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-*{
+/* login */
+ *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Poppins , 'serif';
     justify-content: center;
     align-items: center;
+    
     text-decoration: none;
 }
 body{
     background: url("bg.jpg");
     background-repeat: no-repeat;
     height: 100vh;
+    
     background-size: cover;
     background-position: center;
 }
@@ -29,9 +32,9 @@ top: 50%;
 left: 50%;
 text-align: center;
 padding: 40px 32px;
-width: 370px;
+width: 400px;
 transform: translate(-50%,-50%);
-background: rgba(255,255,255,0.04);
+background: rgba(255,255,255,0.1);
 box-shadow: -1px 4px 28px 0px rgba(0,0,0,1);
 }
 .container p{
@@ -42,6 +45,7 @@ box-shadow: -1px 4px 28px 0px rgba(0,0,0,1);
 }
 .field-user , .field-pass {
         position: relative;
+        border-radius: 5px;
         height: 45px;
         width: 100%;
         display: flex;
@@ -77,7 +81,9 @@ box-shadow: -1px 4px 28px 0px rgba(0,0,0,1);
       .forgot:hover a{
         text-decoration: underline;
       }
+      
       .field-submit input{
+        border-radius: 5px;
         background: #3498db;
         border: 1px solid #2691d9;
         color: white;
@@ -104,6 +110,7 @@ box-shadow: -1px 4px 28px 0px rgba(0,0,0,1);
         margin: 0 0 20px 0;
       }
       .facebook,.instagram{
+        border-radius: 5px;
         width: 100%;
         height: 45px;
         line-height: 45px;
@@ -146,3 +153,82 @@ box-shadow: -1px 4px 28px 0px rgba(0,0,0,1);
       .signup a:hover{
         text-decoration: underline;
       }
+
+      /* registration */
+   
+    #reg{
+      color: white;
+      font-size:30px;
+      font-weight: 600;
+      margin: 0 0 20px 0;
+    }
+      
+    .field{
+      border-radius: 5px;
+      position: relative;
+      height: 45px;
+      width: 100%;
+      display: flex;
+      background: rgba(255,255,255,0.94);
+      margin-bottom: 10px;
+    }
+    .field input{
+      height: 100%;
+      width: 100%;
+      background: transparent;
+      border: none;
+      outline: none;
+      color: #222;
+      font-size: 16px;
+      font-family: 'Poppins',sans-serif;
+    }
+    .gender{
+      text-align: left;
+      color: white;
+      margin-bottom: 10px;
+    }
+    .gender input{
+      margin: 10px;
+    }
+    .confirm{
+      color: white;
+      text-align: left;
+      margin-bottom: 15px;
+    }
+    .confirm a{
+      color: #3498db;
+    }
+    .confirm a:hover{
+      text-decoration: underline;
+    }
+
+    .register input{
+      background: #3498db;
+      border: 1px solid #3498db;
+      border-radius: 5px;
+      color: white;
+      width: 100%;
+      padding:5px 10px;
+      font-size: 20px;
+      letter-spacing: 1.2px;
+      font-weight: 700;
+      cursor: pointer;
+    }
+    .field span{
+      color: black;
+        width: 40px;
+        line-height: 45px;
+    }
+    .logon{
+      margin-top: 10px;
+      font-size: 15px;
+      color: white;
+    
+    }
+    .logon a{
+      color: #3498db;
+      text-decoration: none;
+    }
+    .logon a:hover{
+      text-decoration: underline;
+    }
