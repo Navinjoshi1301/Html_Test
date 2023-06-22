@@ -16,11 +16,11 @@ body{
     background-size: cover;
     background-position: center;
 }
-/* .black{
+.black{
     height: 100vh;
     background-color: black;
     opacity: .75;
-} */
+}
 
 .container{
 position: absolute;
