@@ -7,25 +7,22 @@
     font-family: Poppins , 'serif';
     justify-content: center;
     align-items: center;
-    
     text-decoration: none;
 }
 body{
     background: url("bg.jpg");
     background-repeat: no-repeat;
     height: 100vh;
-    
     background-size: cover;
     background-position: center;
 }
-.black{
+/* .black{
     height: 100vh;
     background-color: black;
     opacity: .75;
-}
+} */
 
 .container{
-
 position: absolute;
 border-radius:5% ;
 top: 50%;
@@ -232,3 +229,32 @@ box-shadow: -1px 4px 28px 0px rgba(0,0,0,1);
     .logon a:hover{
       text-decoration: underline;
     }
+
+
+
+    @media screen and (max-width: 575px){
+     body{
+      background: url(bg_6_360x700.jpg);
+      background-repeat: repeat;
+      height: 100vh;
+      background-size: cover;
+      background-position: center;
+      
+     } 
+
+     .container{
+     
+      width: 290px;
+     
+    }
+    .facebook,.instagram{
+      margin-left: 5px;
+      
+    }
+    i span{
+      font-weight: 500;
+      font-size: 13px;
+      
+    }
+    
+  }
